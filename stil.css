@@ -1,0 +1,95 @@
+body
+{
+    background-color: black;
+}
+
+.razmak
+{
+    margin-top: 6rem; 
+}
+.tekstBoja{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+video {
+    object-fit:contain;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  @media  screen and (max-width: 600px) {
+    .tekstBoja {
+      font-size: 9px;
+    }
+  }
+  @media  screen and (min-width:600px) {
+      .tekstBoja{
+          font-size: 11px;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+        .tekstBoja{
+            font-size: 12px;
+        }
+  }
+  .slikeIzumi{height: 100%;}
+  @media only screen and (min-width: 992px) {
+      .tekstBoja{
+          font-size: 15px;
+      }
+    }
+  @media only screen and (min-width: 1200px) {
+        .tekstBoja{
+            font-size: 18px;
+        }
+    }
+    #demo {
+        height:100%;
+        position:relative;
+        overflow:hidden;
+      }
+      
+              .thumb{
+                  margin-bottom: 30px;
+              }
+              
+              .page-top{
+                  margin-top:85px;
+              }
+      
+         
+      img.zoom {
+          width: 100%;
+          height: 200px;
+          border-radius:5px;
+          object-fit:cover;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+      }
+              
+       
+      .transition {
+          -webkit-transform: scale(1.2); 
+          -moz-transform: scale(1.2);
+          -o-transform: scale(1.2);
+          transform: scale(1.2);
+      }
+          .modal-header {
+         
+           border-bottom: none;
+      }
+          .modal-title {
+              color:#000;
+          }
+          .modal-footer{
+            display:none;  
+          }
+input, textarea{
+    width: 25rem;
+}
